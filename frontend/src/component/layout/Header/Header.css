@@ -9,3 +9,34 @@
   height: 56px;
   border-radius: 100%;
 }
+.logo{
+  width: 150px;
+}
+.nav_bg{
+  background-color: #0D171A;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: #FFB400;
+}
+.nav-link{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 5px;
+}
+.navbar a:hover{
+  color: #FFB400;
+  transform: scale(0.95);
+}
+
+.mobile-menu{
+  color: white;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+.navbar_a_icons{
+  margin-right: 8px;
+}
+

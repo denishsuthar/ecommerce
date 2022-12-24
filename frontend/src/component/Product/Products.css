@@ -86,7 +86,7 @@
   transition: all 0.5s;
 }
 .category-link:hover {
-  color: tomato;
+  color: #FFB400;
 }
 
 .filterBox > fieldset {
@@ -105,5 +105,9 @@
   }
   .category-link {
     font: 400 1.8vmax "Roboto";
+  }
+  .productsHeading{
+    font-size: 18px;
+    width: 100px;
   }
 }

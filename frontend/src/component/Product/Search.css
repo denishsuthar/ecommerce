@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(231, 231, 231);
-  position: fixed;
   top: 0%;
   left: 0;
 }
@@ -20,7 +19,7 @@
   width: 50%;
   outline: none;
   border-radius: 0%;
-  font: 300 1.1vmax cursive;
+  font: 300 1.1vmax poppins;
   box-sizing: border-box;
   height: 8%;
 }
@@ -28,7 +27,7 @@
 .searchBox > input[type="submit"] {
   height: 8%;
   border-radius: 0%;
-  background-color: tomato;
+  background-color: #0D171A;
   border: none;
   padding: 1vmax;
   width: 10%;
@@ -39,13 +38,13 @@
 }
 
 .searchBox > input[type="submit"]:hover {
-  background-color: rgb(55, 97, 214);
+  background-color: #FFB400;
 }
 
 @media screen and (max-width: 600px) {
   .searchBox > input[type="text"] {
     width: 100%;
-    font: 300 4vw cursive;
+    font: 300 4vw poppins;
     height: 10%;
   }
 

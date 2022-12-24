@@ -42,6 +42,7 @@ import ProductReviews from "./component/Admin/ProductReviews";
 import Contact from "./component/layout/Contact/Contact";
 import About from "./component/layout/About/About";
 import NotFound from "./component/layout/Not Found/NotFound";
+import ScrollTop from "./component/ScrollTop";
 
 function App() {
   const { isAuthenticated, user } = useSelector((state) => state.user);
@@ -66,10 +67,11 @@ function App() {
     getStripeApiKey();
   }, []);
 
-  window.addEventListener("contextmenu", (e) => e.preventDefault());
+  
 
   return (
     <Router>
+    <ScrollTop />
       <Header />
 
       {isAuthenticated && <UserOptions user={user} />}

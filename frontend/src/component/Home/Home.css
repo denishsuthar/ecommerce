@@ -119,20 +119,71 @@
 
 @media screen and (max-width: 600px) {
   .productCard > p {
-    font-size: 1.7vmax;
+    font-size: 3vmax;
   }
 
   .productCard > div {
     margin: 0vmax;
     display: block;
   }
+  .productCard {
+    width: 300px;
+  }
+  .productCard > img {
+    width: 300px;
+  }
 
   .productCard > span {
-    font-size: 1.5vmax;
+    font-size: 2.5vmax;
   }
 
   .productCard > div > span {
     margin: 0 0.5vmax;
-    font: 300 1vmax "Roboto";
+    font: 300 2vmax "Roboto";
   }
+  .homeHeading{
+    font-size: 2.2vmax;
+  }
+}
+
+
+.item{
+  background: white;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  margin-bottom: 15px;
+  border: 3px solid rgba(0, 0, 0, 0.30);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.item:hover{
+  background: #0D171A;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+
+}
+.item:hover h5{
+  color: white;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.item:hover p{
+  color: white;
+}
+.item p{
+  color: grey;
+  font-size: 15px;
+}
+.item h5{
+  color: #0D171A;
+}
+.item .icons{
+  font-size: 50px;
+  color: #0D171A;
+}
+.item:hover .icons{
+  color: white;
 }

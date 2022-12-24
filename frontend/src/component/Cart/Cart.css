@@ -10,7 +10,7 @@
 }
 .emptyCart > svg {
   font-size: 5vmax;
-  color: tomato;
+  color: #0D171A;
 }
 .emptyCart > p {
   font-size: 2vmax;
@@ -30,7 +30,7 @@
 }
 
 .cartHeader {
-  background-color: tomato;
+  background-color: #0D171A;
   width: 90%;
   box-sizing: border-box;
   margin: auto;
@@ -74,7 +74,7 @@
 .cartInput > input {
   border: none;
   padding: 0.5vmax;
-  width: 1vmax;
+  width: 40px;
   text-align: center;
   outline: none;
   font: 400 0.8vmax "Roboto";
@@ -87,7 +87,7 @@
   height: 8vmax;
   align-items: center;
   box-sizing: border-box;
-  font: 300 1vmax cursive;
+  font: 300 1vmax poppins;
   justify-content: flex-end;
   color: rgba(0, 0, 0, 0.753);
 }
@@ -98,7 +98,7 @@
 }
 
 .cartGrossProfitBox {
-  border-top: 3px solid tomato;
+  border-top: 3px solid #0D171A;
   margin: 1vmax 4vmax;
   box-sizing: border-box;
   padding: 2vmax 0;
@@ -112,7 +112,7 @@
   justify-content: flex-end;
 }
 .checkOutBtn > button {
-  background-color: tomato;
+  background-color: #0D171A;
   color: white;
   border: none;
   padding: 0.8vmax 4vmax;
@@ -149,7 +149,7 @@
   }
 
   .cartInput > input {
-    width: 2vmax;
+    width: 40px;
     padding: 1.5vmax;
     font: 400 1.8vmax "Roboto";
   }
